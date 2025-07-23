@@ -21,10 +21,9 @@ import Button from 'components/Core/ButtonNDL';
 import LoadingScreen from "LoadingScreenNDL"
 import Breadcrumbs from "components/Core/Bredcrumbs/BredCrumbsNDL";
 import useMeterReadingsV2 from '../Explore/BrowserContent/hooks/useMeterReadingsV2';
-
+import FileSaver from 'file-saver';
+import Excel from "exceljs";
 const EnhancedTable = React.lazy(() => import("components/Table/Table"))
-const FileSaver = require('file-saver');
-const Excel = require("exceljs");
 function OfflineDAQ(props){
     let janOffset = moment({M:0, d:1}).utcOffset(); //checking for Daylight offset
     let julOffset = moment({M:6, d:1}).utcOffset(); //checking for Daylight offset

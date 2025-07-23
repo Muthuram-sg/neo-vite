@@ -19,7 +19,7 @@ import useWorkExecution from 'Hooks/useGetWorkExecution.jsx';
 import LoadingScreenNDL from 'LoadingScreenNDL';
 import ButtonNDL from 'components/Core/ButtonNDL';
 import useGenerateRawReport from 'components/layouts/Reports/hooks/useGenerateRawReport';
-const momentZone = require('moment-timezone');
+import momentZone from 'moment-timezone';
 
 let AssetListOEE = [];
 function AvailabilityReport(props) {

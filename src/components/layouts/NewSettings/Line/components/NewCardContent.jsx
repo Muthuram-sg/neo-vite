@@ -23,8 +23,6 @@ import CmsiconDark from 'assets/neo_icons/Logos/cmsDarkLogo.svg'
 import Grindsmart from 'assets/neo_icons/Logos/GrindSmart.svg'
 import Neo from 'assets/neo_icons/Logos/Neo_Logo_new.svg'
 import Crion from 'assets/CRION_Logo.svg'
-// const fs = require('fs');
-// const path = require('path');
 
 const ConstomCardContent = (props) => {
   const { t } = useTranslation();

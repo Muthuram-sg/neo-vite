@@ -25,7 +25,7 @@ import {
   themeMode,
   SelectedReportPage,ReportNameselected
   
-} from "recoil/atoms"; 
+} from "recoilStore/atoms"; 
 import Button from 'components/Core/ButtonNDL';
 import useParameterList from 'components/layouts/Reports/hooks/useParameterList';
 import useEntityFormulaList from 'components/layouts/Reports/hooks/useEntityFormulaList';
@@ -41,7 +41,7 @@ import ModalNDL from "components/Core/ModalNDL";
 import ModalHeaderNDL from "components/Core/ModalNDL/ModalHeaderNDL";
 import ModalContentNDL from "components/Core/ModalNDL/ModalContentNDL";
 import ModalFooterNDL from "components/Core/ModalNDL/ModalFooterNDL";
-import { ReactComponent as Download } from 'assets/neo_icons/Menu/DownloadSimple.svg';
+import Download from 'assets/neo_icons/Menu/DownloadSimple.svg';
 import ExcelJS from "exceljs";
 import SpeedFeedReport from "components/layouts/Reports/SpeedFeedReport";
 import RouteCard from "components/layouts/Reports/RouteCard";

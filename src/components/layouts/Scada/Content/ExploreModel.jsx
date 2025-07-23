@@ -15,7 +15,7 @@ import CustomSwitch from 'components/Core/CustomSwitch/CustomSwitchNDL';
 import ContentSwitcherNDL from "components/Core/ContentSwitcher/ContentSwitcherNDL"; 
 import TypographyNDL from 'components/Core/Typography/TypographyNDL';
 import { useTranslation } from 'react-i18next';
-import TrendsChart from 'components/layouts/Explore/ExploreMain/ExploreTabs/components/Trends/components/TrendsGraph/components/Trendschart.js'
+import TrendsChart from 'components/layouts/Explore/ExploreMain/ExploreTabs/components/Trends/components/TrendsGraph/components/Trendschart.jsx'
 
 import Button from 'components/Core/ButtonNDL'; 
 import ModalHeaderNDL from 'components/Core/ModalNDL/ModalHeaderNDL';

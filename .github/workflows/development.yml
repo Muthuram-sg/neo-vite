@@ -1,0 +1,64 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Development CI/CD
+
+on:
+  push:
+    branches: [ "development" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      
+    - name: Setting up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: 'yarn'
+      
+    - name: Installing Packages
+      run: yarn install
+
+    - name: Building Code
+      run: yarn build:development
+
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@master
+      with:
+        name: build-output
+        path: build
+
+  deploy:
+    name: Deploy to Server
+    runs-on: self-hosted
+    needs: build
+    steps:
+      - name: Retrieve the build
+        uses: actions/download-artifact@master
+        with:
+          name: build-output
+          path: build/
+
+      - name: Remove Existing Files on Web Server
+        run: ssh -p 2222 $DEV_USER_HOST -- "rm -rf $DEPLOY_WEB_SERVER_PATH/*"
+        env:
+          $DEPLOY_WEB_USER_HOST_DEV: ${{ vars.DEPLOY_WEB_USER_HOST_DEV }}
+          DEPLOY_WEB_SERVER_PATH: ${{ vars.DEPLOY_WEB_SERVER_PATH }}
+          
+      - name: Transfer Build Files
+        run: scp -r -P 2222 ./build/* "$DEPLOY_WEB_USER_HOST_DEV:$DEPLOY_WEB_SERVER_PATH/.";
+        env:
+          DEPLOY_WEB_USER_HOST_DEV: ${{ vars.DEPLOY_WEB_USER_HOST_DEV }}
+          DEPLOY_WEB_SERVER_PATH: ${{ vars.DEPLOY_WEB_SERVER_PATH }}
+          
+      - name: Verify File Transfer
+        run: ssh -p 2222 $DEPLOY_WEB_USER_HOST_DEV ls -lh $DEPLOY_WEB_SERVER_PATH/;
+        env:
+          DEPLOY_WEB_USER_HOST_DEV: ${{ vars.DEPLOY_WEB_USER_HOST_DEV }}
+          DEPLOY_WEB_SERVER_PATH: ${{ vars.DEPLOY_WEB_SERVER_PATH }}

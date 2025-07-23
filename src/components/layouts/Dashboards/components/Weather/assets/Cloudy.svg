@@ -1,0 +1,67 @@
+<svg width="50" height="50" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_611_6062)">
+<g filter="url(#filter0_bdi_611_6062)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M160 349.984C159.501 349.995 159.001 350 158.5 350C121.221 350 91 319.779 91 282.5C91 257.201 104.918 235.153 125.515 223.594C125.505 222.981 125.5 222.366 125.5 221.75C125.5 160.032 175.532 110 237.25 110C290.487 110 335.029 147.226 346.265 197.068C387 198.779 419.5 232.344 419.5 273.5C419.5 315.75 385.25 350 343 350H160V349.984Z" fill="url(#paint0_radial_611_6062)" fill-opacity="0.77"/>
+</g>
+<g style="mix-blend-mode:soft-light" filter="url(#filter1_di_611_6062)">
+<circle cx="158.5" cy="282.5" r="67.5" fill="#848484"/>
+</g>
+<g opacity="0.54" filter="url(#filter2_f_611_6062)">
+<ellipse cx="190" cy="277.25" rx="69" ry="63.75" fill="white"/>
+<ellipse cx="256" cy="236" rx="90" ry="96" fill="white"/>
+<ellipse cx="286" cy="307" rx="90" ry="96" fill="white"/>
+<ellipse cx="286" cy="256" rx="90" ry="96" fill="white"/>
+<ellipse cx="196" cy="256" rx="90" ry="96" fill="white"/>
+<ellipse cx="345" cy="256" rx="90" ry="96" fill="white"/>
+<ellipse cx="376" cy="218.75" rx="69" ry="63.75" fill="white"/>
+<ellipse cx="147.25" cy="328.25" rx="80.25" ry="74.25" fill="white"/>
+<ellipse cx="120.25" cy="342.5" rx="45.75" ry="42" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_bdi_611_6062" x="43" y="86" width="424.5" height="336" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="12"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_611_6062"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="24"/>
+<feGaussianBlur stdDeviation="24"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.2015 0 0 0 0 0.3875 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_611_6062" result="effect2_dropShadow_611_6062"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_611_6062" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="1.5" dy="3"/>
+<feGaussianBlur stdDeviation="10.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect3_innerShadow_611_6062"/>
+</filter>
+<filter id="filter1_di_611_6062" x="79" y="191" width="180" height="177" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-3" dy="-15"/>
+<feGaussianBlur stdDeviation="4.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.22 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_611_6062"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_611_6062" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="33" dy="18"/>
+<feGaussianBlur stdDeviation="16.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.74 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_611_6062"/>
+</filter>
+<filter id="filter2_f_611_6062" x="-21.2366" y="51.7634" width="554.473" height="439.473" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="44.1183" result="effect1_foregroundBlur_611_6062"/>
+</filter>
+<radialGradient id="paint0_radial_611_6062" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(206.747 161.172) rotate(90.6693) scale(188.743 215.381)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#99CEFF"/>
+</radialGradient>
+<clipPath id="clip0_611_6062">
+<rect width="512" height="512" fill="white"/>
+</clipPath>
+</defs>
+</svg>

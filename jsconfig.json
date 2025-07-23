@@ -1,0 +1,19 @@
+{
+  	"compilerOptions": {
+	
+	 "baseUrl": ".",
+	
+	 "paths": {
+	
+	 "components/*": ["src/components/*"],
+	
+	 "assets/*": ["src/assets/*"],
+	
+	 "recoil/*": ["src/recoilStore/*"],
+	
+	 "config": ["src/config.jsx"]
+	
+	 }
+	
+	}
+}

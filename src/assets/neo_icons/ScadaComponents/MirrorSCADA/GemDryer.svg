@@ -1,0 +1,15 @@
+<svg width="200" height="100" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="4" y="4" width="192" height="92" rx="4" fill="#D5E2DB" stroke="#FE0000" stroke-width="8"/>
+<rect x="28" y="2" width="4" height="94" rx="2" fill="#FE0000"/>
+<rect x="48" y="2" width="4" height="94" rx="2" fill="#FE0000"/>
+<rect x="68" y="2" width="4" height="94" rx="2" fill="#FE0000"/>
+<rect x="88" y="2" width="4" height="94" rx="2" fill="#FE0000"/>
+<rect x="108" y="2" width="4" height="94" rx="2" fill="#FE0000"/>
+<rect x="128" y="2" width="4" height="94" rx="2" fill="#FE0000"/>
+<rect x="148" y="2" width="4" height="94" rx="2" fill="#FE0000"/>
+<rect x="168" y="2" width="4" height="94" rx="2" fill="#FE0000"/>
+<rect x="194" y="23.8019" width="4" height="190" rx="2" transform="rotate(90 194 23.8019)" fill="#FE0000"/>
+<rect x="194" y="39.8019" width="4" height="190" rx="2" transform="rotate(90 194 39.8019)" fill="#FE0000"/>
+<rect x="194" y="55.8019" width="4" height="190" rx="2" transform="rotate(90 194 55.8019)" fill="#FE0000"/>
+<rect x="194" y="71.8019" width="4" height="190" rx="2" transform="rotate(90 194 71.8019)" fill="#FE0000"/>
+</svg>

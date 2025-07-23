@@ -1,0 +1,19 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" xml:space="preserve"><desc>Copyright Opto 22</desc> 
+<g>
+	<g id="frame">
+		<rect fill="none" width="100" height="100"></rect>
+	</g>
+	<g id="shape">
+		<path fill="#006837" d="M92.678,25c9.763,13.807,9.763,36.193,0,50H7.322c-9.763-13.807-9.763-36.193,0-50H92.678z"></path>
+	</g>
+	<g id="dark">
+		<path fill="#009245" d="M92.501,25.25c9.665,13.669,9.665,35.831,0,49.5H7.499c-9.665-13.669-9.665-35.831,0-49.5H92.501z"></path>
+	</g>
+	<g id="light">
+		<path fill="#96D48D" d="M92.147,74.25c9.47-13.393,9.47-35.107,0-48.5H7.853c-9.47,13.393-9.47,35.107,0,48.5H92.147z"></path>
+	</g>
+	<g id="hlight">
+		<path fill="#FFFFFF" d="M91.971,74c9.373-13.255,9.373-34.745,0-48H8.029c-9.373,13.255-9.373,34.745,0,48H91.971z"></path>
+	</g>
+</g>
+</svg>

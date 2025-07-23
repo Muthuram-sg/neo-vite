@@ -1,0 +1,33 @@
+.ellipsis{
+    white-space:unset !important;
+    text-overflow: unset !important;
+}
+.wrapper > div > ul > li > div{
+    margin-left: 1px !important;
+}
+.wrapper > div > ul{
+    padding: 0px 4px 16px 4px !important;
+}
+/* .selected {
+    background-color: #fff !important;
+} */
+.wrapper>div>input{
+    border: 1px solid #E8E8E8 !important;
+    border-radius: 4px;
+    background: #F4F4F4 !important;
+    height: 33px;
+    margin: 4px;
+}
+div.line{
+    border-top-width: 0px !important;
+} 
+.wrapper {
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border: 0px !important;
+    max-height: 430px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.wrapper:hover {
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%) !important;
+}

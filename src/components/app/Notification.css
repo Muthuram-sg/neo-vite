@@ -1,0 +1,205 @@
+.unread-notification{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 16px 8px 8px;
+    gap: 10px;
+
+    width: 492px;
+
+    /* Secondary Button/Hover */
+
+    background: #E7F1FF;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.unread-msgtime{
+    width: 363px;
+height: 18px;
+margin-top: -2vh;
+
+/* Caption/Caption 2 (Regular) */
+
+/* font-family: 'inherit'; */
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+text-align: right;
+
+/* Primary Button/Default */
+
+color: #0F6FFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.read-notification{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 16px 8px 8px;
+    gap: 10px;
+    width: 492px;
+
+    /* Light Theme/Foreground */
+
+    background: #FCFCFC;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.read-msgtime{
+    width: 310px;
+    height: 18px;
+    
+    /* Caption/Caption 2 (Regular) */
+    
+    /* font-family: 'inherit'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    
+    text-align: right;
+    
+    /* Text Colour/Disabled */
+    
+    color: #C4C4C4;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+}
+.read-heading{
+    width: 140px;
+height: 24px;
+
+/* Body 2/Body 2 (Medium) */
+
+/* font-family: 'inherit'; */
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Text Colour/Secondary Text Color */
+
+color: #585757;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.read-taskname{
+  
+
+/* Body 2/Body 2 (Medium) */
+
+/* font-family: 'inherit'; */
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: right;
+
+/* Text Colour/Secondary Text Color */
+
+color: #585757;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.unread-alarm-icon{
+   stroke :#FF0D00;
+    
+}
+.read-alarm-icon{
+    stroke :#FF6E66;
+     
+ }
+ .unread-release-icon{
+    stroke :#007BFF;
+     
+ }
+ .read-release-icon{
+    stroke :#007bff99; 
+ }
+ .unread-dashboard-icon{
+    stroke:#101010; 
+ }
+ .read-dashboard-icon{
+    stroke:#10101060;   
+ }
+ .unread-entity-icon{
+    stroke:#101010; 
+ }
+ .read-entity-icon{
+    stroke:#10101060;   
+ }
+ .unread-forms-icon{
+    stroke:#101010; 
+ }
+ .read-forms-icon{
+    stroke:#10101060;   
+ }
+ .unread-gateway-icon{
+    stroke:#101010;  
+ }
+ .read-gateway-icon{
+    stroke:#10101060;   
+ }
+ .unread-Hierarchy-icon{
+    stroke:#101010; 
+ }
+ .read-Hierarchy-icon{
+    stroke:#10101060; 
+ }
+
+ .Notification-Main{
+   position: absolute;
+    top: 50px;
+    right: 29px;
+    background: #fff;
+    padding: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2), 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12);
+    border-radius: 4px; 
+ }
+
+ .Notify-content{
+   height: 475px;
+   overflow: auto;
+ }

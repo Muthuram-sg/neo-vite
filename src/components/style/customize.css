@@ -1,0 +1,135 @@
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 25;
+	height: 20;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+.MuiOutlinedInput-adornedEnd {
+    padding-right: 5px;
+}
+.MuiOutlinedInput-input {
+    padding: 12px 14px;
+}
+.grid-item{
+	/* box-shadow: 0px 0px 4px 0px #00000040; */
+
+}
+.MuiInputBase-root{
+	font-size: 14px;
+}
+#formula-dialog-title > h2{
+display: flex;
+}
+
+.ChartMain:hover{
+	/* overflow-x: scroll; */
+}
+
+div.ChartMain::-webkit-scrollbar { 
+    height: 2px;
+	background: #F4F4F4;
+}
+
+div.ChartMain::-webkit-scrollbar-track { 
+	background:#F4F4F4;
+  }
+ 
+ /** Submenu CSS start */
+	.sidebar .nav-links{
+	  height: 100%;
+	  padding: 30px 0 150px 0;
+	  overflow: auto;
+	}
+	.sidebar.close .nav-links{
+	  overflow: visible;
+	}
+	.sidebar .nav-links::-webkit-scrollbar{
+	  display: none;
+	}
+	.sidebar .nav-links li{
+	  position: relative;
+	  list-style: none;
+	  transition: all 0.4s ease;
+	}
+	.submenu-li:hover{
+		background: #e0e0ee;
+	}
+	.sidebar .nav-links li .iocn-link{
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+	}
+	.sidebar.close .nav-links li .iocn-link{
+	  display: block
+	}
+	
+	.sidebar .nav-links li a{
+	  display: flex;
+	  align-items: center;
+	  text-decoration: none;
+	}
+	.sidebar.close .nav-links li a .link_name{
+	  opacity: 1;
+	  pointer-events: none;
+	}
+
+	.sidebar .nav-links li .sub-menu{
+		padding: 6px 6px 14px 80px;
+		margin-top: -45px;
+		display: none;
+	}
+	
+	.sidebar .nav-links li .sub-menu a{
+		font-size: 14px;
+		padding: 5px 0;
+		white-space: nowrap;
+		opacity: 1;
+		transition: all 0.3s ease;
+	}
+	.sidebar .nav-links li .sub-menu a:hover{
+		opacity: 1;
+	}
+	.sidebar.close .nav-links li .sub-menu{
+		position: absolute;
+		padding: 10px 11px;
+		opacity: 0;
+		display: block;
+		left: 100%;
+		top: -80px;
+		pointer-events: none;
+	}
+	
+	.sidebar.close .nav-links li:hover .sub-menu{
+		position: absolute;
+		opacity: 1;
+		pointer-events: auto;
+		transition: all 0.4s ease;
+		--tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+		filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+		
+	}
+	.sidebar .nav-links li .sub-menu .link_name{
+		display: none;
+	}
+	.sidebar.close .nav-links li .sub-menu .link_name{
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+		opacity: 1;
+		display: block;
+	}
+	.submenu-li{
+		border-bottom:0.25px solid #E5E7EB;
+		padding: 7px 20px;
+		background-color: rgb(255, 255, 255);
+		cursor: pointer;
+	}
+	.submenu-div{
+		width: 200px !important;
+	}
+ /** Submenu CSS End */

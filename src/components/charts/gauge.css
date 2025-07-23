@@ -1,0 +1,58 @@
+.stroke-green-400 {
+    stroke: #0F6FFF;
+}
+
+.fill-gray-300 {
+    fill: #CCE5FF;
+}
+.fill-gray-700 {
+    fill: #0F6FFF;
+}
+
+.pad-2 {
+    padding: 0;
+}
+
+.overflow-visible {
+    overflow: visible !important;
+} 
+
+.w-full {
+    width: 100%;
+}
+
+/* .p-4 {
+    padding: 2rem;
+    margin-top: 5%;
+} */
+
+.stroke-gray-200 {
+    stroke: #e5e7eb;
+}
+
+.stroke-gray-300 {
+    stroke: #d1d5db;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.gauge-label{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.lightText{
+    stroke: #101010;
+    stroke-width: 0;
+}
+.darkText{
+    stroke: #FCFCFC;
+    stroke-width: 1;
+}

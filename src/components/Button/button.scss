@@ -1,0 +1,122 @@
+.lg{    
+    height: 40px;  
+}
+.md{
+    height: 32px;
+}
+.sm{
+    height: 24px;
+}
+.primary-root{
+    display: flex;
+    padding: 1px 5px;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 5px; 
+    min-width: 67px;
+    /* Primary Button/Default */            
+    background: #0F6FFF;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    &:hover{
+        background: #0C62E4;
+    }
+    &:active{
+        background: #0050C8;
+    }
+}
+.primary-disabled{
+    background: #D8D8D8;
+    &:hover{
+        background: #D8D8D8;
+    }
+}
+
+.primary-text-disabled{
+    color: #585757 !important;
+}
+.secondary-root{
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 5px;
+    gap: 5px; 
+    min-width: 67px; 
+    /* Primary Button/Default */            
+    background: #F3F8FF;
+    border-radius: 4px;
+    border: 1px solid #0F6FFF;
+    cursor: pointer;
+    &:hover{
+        background:#E7F1FF;
+    }
+    &:active{
+        background: #DBEAFF;
+    }
+}
+
+.secondary-disabled{
+    border: 1px solid #C4C4C4;
+    background: #D8D8D8;
+    &:hover{
+        border: 1px solid #C4C4C4;
+        background: #D8D8D8;
+    }
+}
+.secondary-text-disabled{
+    color: #585757 !important;
+}
+
+
+.tertiary-root{
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 5px;
+    gap: 5px; 
+    min-width: 67px; 
+    /* Primary Button/Default */            
+    background: #FFF;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid #F0F6FF;
+        background:#FFFFFF;
+    }
+    &:active{
+        border: 1px solid #F7FAFF;
+        background: #FFFFFF;
+    }
+}
+.tertiary-dark{ 
+    &:hover{
+        border: 1px solid #1F2021; 
+    }
+    background: #0D0D0D !important;
+}
+.tertiary-disabled{
+    border: 1px solid #969696;
+    background: #FFFFFF;
+    &:hover{
+        border: 1px solid #969696;
+        background: #FFFFFF;
+    }
+}
+.tertiary-text-disabled{
+    color: #585757 !important;
+}
+@media only screen and (max-width: 780px) {
+    .responsive{
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 781px) {
+    .responsive{
+        width: 283px;
+    }
+}

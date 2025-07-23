@@ -1,0 +1,8 @@
+.showMoreLess {
+    color: #007BFF ;
+    text-decoration: none
+}
+#workArea{
+    background-image: radial-gradient(#d9d9d9 2px, transparent 0px);
+  background-size: 15px 15px;
+}

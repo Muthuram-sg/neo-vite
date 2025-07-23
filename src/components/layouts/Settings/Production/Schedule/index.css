@@ -1,0 +1,18 @@
+/* adjusting the built-in theme */
+
+
+/* calendar event */
+.css-3nejl.Appointment-appointment {
+    background:#8584E1 !important;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10pt;
+    padding: 5px;
+    cursor: pointer;
+    
+
+}
+.css-3nejl.Appointment-appointment:hover{
+    background-color: #AEADEB !important;
+}

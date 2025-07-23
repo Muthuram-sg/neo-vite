@@ -1,0 +1,51 @@
+name: Azure Static Neo Web Apps CI/CD 
+
+on:
+  push:
+    branches:
+      - staging
+      - development
+      # - 140-Routing-for-each-components
+      # - scada-like-dashboard-12
+      - Code-Freeze
+      # - Regression-issue-fixes
+      # - Neonix
+      # - CustomDashBoard_alertlevel_lineChart
+  # pull_request:
+  #   types: [opened, synchronize, reopened, closed]
+  #   branches:
+  #     - staging
+
+jobs:
+  build_and_deploy_job:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+    runs-on: ubuntu-latest
+    name: Build and Deploy Job
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+          lfs: false
+      - name: Build And Deploy
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_MANGO_BAY_00D944000 }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          app_build_command: 'yarn build:staging'
+          action: "upload"
+          app_location: "/" 
+          output_location: "build"
+          production_branch: "staging"
+
+  close_pull_request_job:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    name: Close Pull Request Job
+    steps:
+      - name: Close Pull Request
+        id: closepullrequest
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_THANKFUL_POND_08FAA4710 }}
+          action: "close"
